@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar {
+    background-color: #aa08eb;
+}
+
+#header a.nav-link.active {
+    background-color: #fff;
+    color: #e74c30;
+}
+
+#header a.nav-link:hover {
+    background-color: #e74c30;
+}
+
+#header .nav .nav-link, .navbar-brand, .navbar-brand:hover {
+    color: #fff;
+}
+
+.navbar-toggler {
+    background-color: rgb(253, 218, 198);
+}
+
+.section-tittle {
+    font-family: "fredoka";
+}
+
+.text-color {
+    color: #e74c30;
+}
+
+.col-md-3 img {
+    cursor: pointer;
+}
+
+#data {
+    color: #686767;
+}
+
+a.btn.btn-danger {
+    background-color: #e74c30;
+    border: none;
+}
+
+a.btn.btn-danger:hover {
+    background-color: #aa08eb;
+    border: none;
+}
+
+.btn-floating img {
+    height: 36px;
+}
+
+#contact button {
+    background-color: #e74c30;
+    color: #fff;
+}
+
+#contact button:hover {
+    background-color: #aa08eb;
+}
+
+.socLinks li {
+    list-style: none;
+    display: inline;
+}
+
+.socLinks li a {
+    text-decoration: none;
+}
+
+.p-3 {
+    background-color: #aa08eb;
+    font-family: 'Oswald', sans-serif;
+}
+
+footer {
+    margin-top: 12px;
+    background-color: #aa08eb;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+@media (max-width: 767px) {
+    header nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    button.navbar-toggler {
+        background-color: #e74c30;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    p, ul li {
+        font-size: 1rem;
+    }
+
+    form {
+        padding: 15px;
+    }
+    .carousel-item img {
+        height: 280px;
+    }
+}
